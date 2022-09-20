@@ -1,0 +1,58 @@
+Product product1:
+calling Product() constructor
+Product printMembers(): Price is 0.0, Name is 'null', Description is 'null', Quantity is 0
+
+Product product1 (set values):
+Product printMembers(): Price is 994.99, Name is 'iPhone', Description is 'Mobile phone from Apple', Quantity is 10
+
+Product product2:
+calling Product(price, name, description, quantity) constructor
+Product printMembers(): Price is 10.0, Name is 'Cable', Description is 'iPhone cable', Quantity is 20
+
+Cosmetics cosmetics1:
+calling Product() constructor
+Calling Cosmetics() constructor
+Product printMembers(): Price is 0.0, Name is 'null', Description is 'null', Quantity is 0
+
+Cosmetics printMembers(): Color is 'null', Weight is 0
+
+Cosmetics cosmetics2:
+calling Product(price, name, description, quantity) constructor
+Calling Cosmetics(price, name, description, quantity, color, weight) constructor
+Product printMembers(): Price is 20.0, Name is 'Garnier', Description is 'Shampoo', Quantity is 50
+
+Cosmetics printMembers(): Color is 'pink', Weight is 50
+
+Electronics electronics1:
+calling Product() constructor
+Calling Electronics() constructor
+Product printMembers(): Price is 0.0, Name is 'null', Description is 'null', Quantity is 0
+
+Electronics printMembers(): Type is 'null', Length is 0, Width is 0, Height is 0, Weight is 0
+
+Electronics electronics2:
+calling Product(price, name, description, quantity) constructor
+Calling Electronics(price, name, description, quantity, type, length, width, height, weight) constructor
+Product printMembers(): Price is 10.0, Name is 'Akai', Description is 'TV set', Quantity is 10
+
+Electronics printMembers(): Type is 'Import', Length is 150, Width is 15, Height is 50, Weight is 25
+
+Fridge fridge1:
+calling Product() constructor
+Calling Electronics() constructor
+Calling Fridge() constructor
+Product printMembers(): Price is 0.0, Name is 'null', Description is 'null', Quantity is 0
+
+Electronics printMembers(): Type is 'null', Length is 0, Width is 0, Height is 0, Weight is 0
+
+Fridge printMembers(): Temperature is 0.0
+
+Fridge fridge2:
+calling Product(price, name, description, quantity) constructor
+Calling Electronics(price, name, description, quantity, type, length, width, height, weight) constructor
+Calling Fridge(price, name, description, quantity, type, length, width, height, weight, temperature) constructor
+Product printMembers(): Price is 10.0, Name is 'Arctic', Description is 'Fridge', Quantity is 30
+
+Electronics printMembers(): Type is 'Romanian', Length is 60, Width is 50, Height is 150, Weight is 100
+
+Fridge printMembers(): Temperature is -10.0
